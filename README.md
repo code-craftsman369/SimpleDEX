@@ -117,6 +117,23 @@ This project was built to learn:
 - DeFi protocols
 - Smart contract security best practices
 
+## 🌐 Deployed on Sepolia Testnet
+
+SimpleDEX is live on Ethereum Sepolia testnet!
+
+### Contract Addresses
+
+| Contract | Address | Etherscan |
+|----------|---------|-----------|
+| **SimpleDEX** | `0x42010B02149d21cB1BeF31184B70c6Ad2dAe453E` | [View on Etherscan](https://sepolia.etherscan.io/address/0x42010B02149d21cB1BeF31184B70c6Ad2dAe453E) |
+| **Token A (TKA)** | `0x06d9811f49AfA7F90bf423C5c36b8cD5cD086603` | [View on Etherscan](https://sepolia.etherscan.io/address/0x06d9811f49AfA7F90bf423C5c36b8cD5cD086603) |
+| **Token B (TKB)** | `0x1ad3c5Ec04a4b1a22B8E4826c09718735E101979` | [View on Etherscan](https://sepolia.etherscan.io/address/0x1ad3c5Ec04a4b1a22B8E4826c09718735E101979) |
+
+### Network Details
+- **Network**: Ethereum Sepolia Testnet
+- **Chain ID**: 11155111
+
+
 ## 🔮 Future Improvements
 
 - [ ] Multi-token pair support
@@ -131,8 +148,10 @@ MIT
 
 ## 👤 Author
 
-GitHub: @code-craftsman369
-X: @web3_builder369
+**Tatsu**  
+GitHub: [@code-craftsman369](https://github.com/code-craftsman369)  
+X: [@web3_builder369](https://twitter.com/web3_builder369)
+
 
 ## 🙏 Acknowledgments
 
