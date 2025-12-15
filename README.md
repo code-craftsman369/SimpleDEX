@@ -59,13 +59,13 @@ npx hardhat test
 Expected output:
 ```
 SimpleDEX
-  流動性の追加
-    ✔ 初回の流動性追加が成功すること
-  スワップ機能
-    ✔ TokenA → TokenB のスワップが成功すること
-    ✔ TokenB → TokenA のスワップが成功すること
-  流動性の削除
-    ✔ 流動性の削除が成功すること
+  Adding Liquidity
+    ✔ Should successfully add initial liquidity
+  Swap Function
+    ✔ Should successfully swap TokenA to TokenB
+    ✔ Should successfully swap TokenB to TokenA
+  Removing Liquidity
+    ✔ Should successfully remove liquidity
 
 4 passing (434ms)
 ```
@@ -109,14 +109,6 @@ When you swap tokens, the product `k` remains constant (minus fees).
 - **Safe Math**: Built-in overflow protection (Solidity ^0.8.0)
 - **Input Validation**: Comprehensive require statements
 
-## 📚 Learning Resources
-
-This project was built to learn:
-- Automated Market Maker (AMM) mechanics
-- Liquidity pool management
-- DeFi protocols
-- Smart contract security best practices
-
 ## 🌐 Deployed on Sepolia Testnet
 
 SimpleDEX is live on Ethereum Sepolia testnet!
@@ -133,6 +125,16 @@ SimpleDEX is live on Ethereum Sepolia testnet!
 - **Network**: Ethereum Sepolia Testnet
 - **Chain ID**: 11155111
 
+## 📚 Learning Resources
+
+This project was built to learn:
+- Automated Market Maker (AMM) mechanics
+- Liquidity pool management
+- DeFi protocols
+- Smart contract security best practices
+
+For detailed technical explanation (in Japanese):
+- [Zenn Article](https://zenn.dev/codecraftsman/articles/2f3f828416c7af)
 
 ## 🔮 Future Improvements
 
@@ -140,7 +142,13 @@ SimpleDEX is live on Ethereum Sepolia testnet!
 - [ ] Slippage protection
 - [ ] Price oracle integration
 - [ ] Frontend interface
-- [ ] Deploy to Sepolia testnet
+- [ ] Gas optimization
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/code-craftsman369/SimpleDEX/issues).
 
 ## 📝 License
 
@@ -152,9 +160,12 @@ MIT
 GitHub: [@code-craftsman369](https://github.com/code-craftsman369)  
 X: [@web3_builder369](https://twitter.com/web3_builder369)
 
-
 ## 🙏 Acknowledgments
 
 - OpenZeppelin for secure contract implementations
 - Uniswap for AMM inspiration
 - Hardhat for excellent development tools
+
+---
+
+⭐ If you found this project helpful, please give it a star!
